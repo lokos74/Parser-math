@@ -302,7 +302,7 @@ namespace ConsoleApplication1
             string name = "231-53,2+(453*465-(325+32,5*23*45/5)-(324+2-343))-(32*56)+342";
             Console.WriteLine("Пример выражения");
             raschet(name); 
-            Console.WriteLine("Введите свое выражение без пробелов");
+            Console.WriteLine("Введите свое выражение без пробелов и соблюдайте правила расстановки скобок");
  link1:     name = Console.ReadLine();
             raschet(name);
             if (!proverka(name))goto link1;         
